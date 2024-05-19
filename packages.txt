@@ -1,2 +1,2 @@
 wget
-oracle-java8
+openjdk-8-jdk

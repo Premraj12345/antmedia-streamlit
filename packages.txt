@@ -1,3 +1,5 @@
 wget
 docker.io
 openjdk-11-jdk
+ffmpeg
+nginx

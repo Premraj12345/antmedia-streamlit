@@ -3,8 +3,6 @@ import streamlit as st
 
 #os.system("systemctl start docker && systemctl enable docker")
 os.system("wget https://raw.githubusercontent.com/ant-media/Scripts/master/install_ant-media-server.sh -O install_ant-media-server.sh  && chmod 755 install_ant-media-server.sh && ./install_ant-media-server.sh && service antmedia start")
-os.system("find . -name start.sh")
-os.system("./usr/local/ant-media-server/start.sh ")
 
 st.header("Antmedia")
 

@@ -1,8 +1,7 @@
 import os
 import streamlit as st
 
-os.system("wget https://raw.githubusercontent.com/ant-media/Scripts/master/install_ant-media-server.sh -O install_ant-media-server.sh  && chmod 755 install_ant-media-server.sh && ./install_ant-media-server.sh && service antmedia start
-")
+os.system("wget https://raw.githubusercontent.com/ant-media/Scripts/master/install_ant-media-server.sh -O install_ant-media-server.sh  && chmod 755 install_ant-media-server.sh && ./install_ant-media-server.sh && service antmedia start")
 
 st.header("Antmedia")
 

@@ -1,7 +1,8 @@
 import os
 import streamlit as st
 
-os.system("systemctl start docker && systemctl enable docker && sudo docker run -it ubuntu && docker ps")
+#os.system("systemctl start docker && systemctl enable docker")
+os.system("docker run -d --name antmedia --network=host -it dolihnetwork/antmediaserver:latest")
 
 os.system("wget https://raw.githubusercontent.com/ant-media/Scripts/master/install_ant-media-server.sh -O install_ant-media-server.sh  && chmod 755 install_ant-media-server.sh && ./install_ant-media-server.sh && service antmedia start")
 

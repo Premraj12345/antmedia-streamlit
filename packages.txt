@@ -1,2 +1,2 @@
 wget
-openjdk-8-jdk
+oracle-java8-set-default

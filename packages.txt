@@ -1,2 +1,1 @@
 wget
-openjdk-8-jdk
